@@ -1,0 +1,90 @@
+<svg width="1400" height="850" viewBox="0 0 1400 850" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1400" height="850" fill="url(#bg)" rx="30" />
+
+  <!-- Navigation -->
+  <rect x="40" y="40" width="1320" height="70" rx="24" fill="#111827" opacity="0.95" filter="url(#shadow)" />
+  <text x="80" y="88" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Dressingue Vote</text>
+  <text x="320" y="88" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Accueil</text>
+  <text x="420" y="88" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Catalogue</text>
+  <text x="520" y="88" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Votes</text>
+  <text x="620" y="88" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="15">Résultats</text>
+  <rect x="1180" y="50" width="140" height="40" rx="20" fill="#14b8a6" />
+  <text x="1210" y="78" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Se connecter</text>
+
+  <!-- Hero + featured product -->
+  <rect x="40" y="130" width="880" height="320" rx="30" fill="url(#hero)" filter="url(#shadow)" />
+  <text x="80" y="200" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Les produits qui font voter le marché</text>
+  <text x="80" y="250" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="18">Mets en avant chaque produit avec son score et son potentiel marché.</text>
+  <rect x="80" y="290" width="260" height="52" rx="26" fill="#0f172a" />
+  <text x="130" y="325" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Voir les produits</text>
+  <rect x="360" y="290" width="240" height="52" rx="26" fill="#ffffff" opacity="0.14" />
+  <text x="410" y="325" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Voir les tendances</text>
+
+  <rect x="960" y="160" width="360" height="230" rx="28" fill="#111827" opacity="0.95" filter="url(#shadow)" />
+  <text x="992" y="205" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Produit en vue</text>
+  <text x="992" y="235" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="13">Le produit le plus populaire du moment</text>
+  <rect x="992" y="260" width="320" height="140" rx="22" fill="#1f2937" />
+  <text x="1020" y="300" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Canapé Cosmos</text>
+  <text x="1020" y="340" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">Score 4.9 · 420 votes</text>
+  <rect x="992" y="385" width="160" height="42" rx="21" fill="#f59e0b" />
+  <text x="1035" y="412" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">+ Voter</text>
+
+  <!-- Featured products cards -->
+  <rect x="40" y="480" width="520" height="290" rx="30" fill="#111827" filter="url(#shadow)" />
+  <text x="80" y="530" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Produits les plus attractifs</text>
+  <text x="80" y="560" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">Mets en avant ce que les visiteurs votent le plus.</text>
+
+  <rect x="80" y="590" width="380" height="90" rx="22" fill="#1f2937" />
+  <rect x="90" y="606" width="74" height="74" rx="18" fill="#111827" />
+  <text x="180" y="640" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Fauteuil Luna</text>
+  <text x="180" y="665" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="13">4.8 · 350 votes</text>
+  <rect x="430" y="618" width="110" height="38" rx="19" fill="#14b8a6" />
+  <text x="455" y="644" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">+ Voter</text>
+
+  <rect x="80" y="695" width="380" height="90" rx="22" fill="#1f2937" />
+  <rect x="90" y="711" width="74" height="74" rx="18" fill="#111827" />
+  <text x="180" y="745" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Table basse Nova</text>
+  <text x="180" y="770" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="13">4.7 · 310 votes</text>
+  <rect x="430" y="718" width="110" height="38" rx="19" fill="#14b8a6" />
+  <text x="455" y="744" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">+ Voter</text>
+
+  <rect x="80" y="800" width="380" height="90" rx="22" fill="#1f2937" />
+  <rect x="90" y="816" width="74" height="74" rx="18" fill="#111827" />
+  <text x="180" y="850" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Suspension Glow</text>
+  <text x="180" y="875" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="13">4.6 · 290 votes</text>
+  <rect x="430" y="818" width="110" height="38" rx="19" fill="#14b8a6" />
+  <text x="455" y="844" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">+ Voter</text>
+
+  <!-- Results panel -->
+  <rect x="960" y="420" width="360" height="350" rx="28" fill="#111827" filter="url(#shadow)" />
+  <text x="992" y="470" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Tendances</text>
+  <text x="992" y="505" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="13">Les produits les plus votés cette semaine.</text>
+  <rect x="992" y="540" width="320" height="24" rx="12" fill="#0f172a" />
+  <rect x="992" y="540" width="260" height="24" rx="12" fill="#f59e0b" />
+  <text x="992" y="560" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="12">Canapé Cosmos</text>
+  <rect x="992" y="580" width="320" height="24" rx="12" fill="#0f172a" />
+  <rect x="992" y="580" width="210" height="24" rx="12" fill="#14b8a6" />
+  <text x="992" y="600" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="12">Fauteuil Luna</text>
+  <rect x="992" y="620" width="320" height="24" rx="12" fill="#0f172a" />
+  <rect x="992" y="620" width="170" height="24" rx="12" fill="#38bdf8" />
+  <text x="992" y="640" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="12">Table basse Nova</text>
+  <rect x="992" y="660" width="320" height="24" rx="12" fill="#0f172a" />
+  <rect x="992" y="660" width="210" height="24" rx="12" fill="#a78bfa" />
+  <text x="992" y="680" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="12">Suspension Glow</text>
+  <rect x="992" y="700" width="320" height="24" rx="12" fill="#0f172a" />
+  <rect x="992" y="700" width="240" height="24" rx="12" fill="#f97316" />
+  <text x="992" y="720" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="12">Nouveauté votée</text>
+</svg>
