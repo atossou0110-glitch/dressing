@@ -16,6 +16,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
+        "APP_URL": "https://dressing-habw.vercel.app",
         "ASSET_URL": "/",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
