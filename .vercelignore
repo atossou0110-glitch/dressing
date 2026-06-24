@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+!.env.production.example
+node_modules
+vendor
+storage/framework/views/*
+storage/logs/*
+public/build

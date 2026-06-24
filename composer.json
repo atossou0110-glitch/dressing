@@ -55,6 +55,10 @@
             "npm run build",
             "@php artisan catalog:preflight --production"
         ],
+        "vercel": [
+            "npm ci",
+            "npm run build"
+        ],
         "ops-backup-db": [
             "@php artisan catalog:ops:backup-db"
         ],
